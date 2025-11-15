@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "oilmachinery",
+  "version": "1.0.0",
+  "name": "Oil Machinery",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ],
+    "client": [
+      "net.fabricmc.example.client.ExampleModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.20.1",
+    "owo-lib": "*"
+  }
+}
